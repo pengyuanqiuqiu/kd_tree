@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-# $Id: kd_tree.py 85615 2013-03-06 06:55:46Z gzkongdeyu@NETEASE.COM $
-## @file
-# @author gzkongdeyu@corp.netease.com(Kong Deyu)
 
 
 class Node(object):
@@ -97,7 +94,7 @@ def tree_print(node, indent):
 	tree_print(node.left, indent + 1)
 	tree_print(node.right, indent + 1)
 
-#不支持重点....
+#锟斤拷支锟斤拷锟截碉拷....
 class KDTree(object):
 	def __init__(self, dem = 2):
 		self._root = None
